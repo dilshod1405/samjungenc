@@ -1,8 +1,6 @@
 from .serializers import ChillerSerializer, ChillerImageSerializer
 from rest_framework import viewsets
 from .models import Chiller, ChillerImage
-from rest_framework.response import Response
-from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
 
 
