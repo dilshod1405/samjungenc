@@ -50,6 +50,7 @@ db.sqlite3
 media/
 staticfiles/
 static/
+/static
 
 # Django specific: Ignore the migrations folder if you don't want to track migrations
 **/migrations/
