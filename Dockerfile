@@ -13,15 +13,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-# Run makemigrations
-RUN python manage.py makemigrations
-
-# Run migrate
-RUN python manage.py migrate
-
-# Run collectstatic
-RUN python manage.py collectstatic --noinput
-
 # Set environment variables
 ENV PYTHONUNBUFFERED=1 \
     DJANGO_SETTINGS_MODULE=samjungenc.settings
